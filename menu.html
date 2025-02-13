@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Lab</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Navigation Bar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="burgerlab.jpg" width="100" height="100" class="d-inline-block align-text-top" alt="Burger Lab Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Menu</h2>
+            <div class="row">
+                <!-- Classic Burger -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- Image sourced from Unsplash: https://unsplash.com/photos/a-chicken-sandwich-with-lettuce-and-mayonnaise-on-a-black-background-sxapiJ8zbq0 -->
+                        <img src="chicken.jpg" alt="Classic Chicken Burger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Chicken Burger</h5>
+                            £5.99
+                            <p class="card-text">A classic chicken burger with fresh salad.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cheeseburger -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- Image sourced from Unsplash: https://unsplash.com/photos/burger-with-lettuce-and-tomatoes-sc5sTPMrVfk -->
+                        <img src="cheese.jpg" alt="Cheeseburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cheeseburger</h5>
+                            £6.99
+                            <p class="card-text">A classic cheeseburger with melted cheese.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Veggie Burger -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- Image sourced from Unsplash: https://unsplash.com/photos/burger-with-lettuce-and-tomato-Fn6dPYtPUMc -->
+                        <img src="veggy.jpg" alt="Veggie Burger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Veggie Burger</h5>
+                            £4.99
+                            <p class="card-text">A delicious plant-based burger.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Burger Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
