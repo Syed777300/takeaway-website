@@ -1,0 +1,40 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #FFD700;
+   color: #FFD700;
+}
+
+.navbar {
+   background-color: #ffc107; /* Yellow */
+}
+
+.hero-section {
+   background-color: #fff;
+   padding: 100px 0;
+}
+
+.btn-primary {
+   background-color: #dc3545; /* Red */
+   border: none;
+}
+
+.btn-primary:hover {
+   background-color: #c82333; /* Darker red */
+}
+
+.card-img-top {
+   width: 100%; /* Ensures it fills the card width */
+   height: 400px; /* Set a fixed height */
+   object-fit: cover; /* Ensures the image scales properly */
+   border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.about-section {
+   color: #000; /* Black text color */
+}
+
+.about-section h2,
+.about-section h3,
+.about-section p {
+   color: #000; /* Black text color for headings and paragraphs */
+}
